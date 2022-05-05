@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e03b185f1b.js" crossorigin="anonymous"></script>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,400;1,500;1,600&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex space-between align-center ">
+            <div>
+               <a href="">
+                   <h1>alt events</h1>
+               </a>
+            </div>
+            <label class="bars" for="toogle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input id="toogle" type="checkbox">
+            <nav class="nav-bar">
+                <ul class="flex space-between align-center column">
+                    <li>
+                        <a href="">home</a>
+                    </li>  
+                    <li>
+                        <a href="">about</a>
+                    </li>  
+                    <li>
+                        <a href="">services</a>
+                    </li>  
+                    <li>
+                        <a href="">contact</a>
+                    </li>  
+                    <li>
+                        <button class="btn">
+                            join us
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- hero -->
+        <section class="hero">
+            <div class="container flex space-between align-center column">
+                <div class="flex-48">
+                    <h2>Web Developer<br>
+                        Conference <span>2020</span>
+                    </h2>
+                    <p>Lorem Josum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a gallev of type and scrambled it to make a type specimen book</p>
+                    <button class="btn">register now</button>
+                </div>
+                <div class="flex-30 img">
+                    <img src="./assets/hero.png" alt="hero">
+                </div>
+            </div>
+        </section>
+        <!-- about -->
+        <section>
+            <article class="about padding">
+                <div class="container flex space-between align-center column">
+                    <div class="flex-48">
+                        <img src="./assets/about.png" alt="about">
+                    </div>
+                    <div class="flex-48">
+                        <h2>
+                            about the event
+                        </h2>
+                        <p>Lore Ipsum has been the industrys standard dummytext ever since the l0os when on unknown onnter took a cal evot fine and scrambled it to make a type specimen boo.</p>
+                            <button class="btn">
+                                know more
+                            </button>
+                    </div>
+                </div>
+            </article>
+            <article class="join padding">
+                <h2>why you should join us</h2>
+                <div class="container flex column space-between align-center">
+                    <fieldset class="col-join flex-30">
+                        <legend>1</legend>
+                        <h3>network</h3>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </fieldset>
+                    <fieldset class="col-join flex-30">
+                        <legend>2</legend>
+                        <h3>great speakers</h3>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </fieldset>
+                    <fieldset class="col-join flex-30">
+                        <legend>3
+                        </legend>
+                        <h3>information</h3>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </fieldset>
+                </div>
+            </article>
+        </section>
+        <!-- schedule -->
+
+        <section class="schedule padding">
+            <h2>schedule</h2>
+            <div class="container flex space-between column">
+                <aside class="schedule-aside flex-18  mg-padding mg-flex">
+                    <div class="date-06">
+                       06 <br>sep
+                    </div>
+                    <div class="line"></div>
+                    <div class="date">
+                        07 <br> sep
+                    </div>
+                    <div class="line"></div>
+                    <div class="date">
+                        08 <br>sep
+                    </div>
+                    <div class="line"></div>
+                    <div class="date">
+                        09 <br>sep
+                    </div>
+                </aside>
+                <div class="img-schedule flex-18 ">
+                    <img src="./assets/schedule-01.jpg" alt="">
+                    <img src="./assets/schedule-02.jpg" alt="">
+                    <img src="./assets/schedule-03.jpg" alt="">
+                    <img src="./assets/schedule-04.jpg" alt="">
+                </div>
+                <div class="flex-55">
+                    <div class="content-schedule">
+                        <h3>Digital World Event Conversation</h3>
+                        <p>TypeLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    </div>
+                    <div class="content-schedule">
+                        <h3>Web Designing Conversation</h3>
+                        <p>TypeLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    </div>
+                    <div class="content-schedule">
+                        <h3>Web Development Conversation</h3>
+                        <p>TypeLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    </div>
+                    <div class="content-schedule">
+                        <h3>Digital Marketing Conference</h3>
+                        <p>TypeLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-schedule">
+                <button class="btn">
+                    download schedule
+                </button>
+            </div>
+        </section>
+
+        <!-- icon -->
+        <section>
+            <article class="icon flex column padding align-center">
+                <div class="icon-1">
+                    <img src="./assets/speaker.png" alt="">
+                    <h2>
+                        20+
+                    </h2>
+                    <p>
+                        great speakers
+                    </p>
+                </div>
+                <div class="icon-1 active">
+                    <img src="./assets/idea.png" alt="">
+                    <h2>
+                        50+
+                    </h2>
+                    <p>
+                        total topics
+                    </p>
+                </div>
+                <div class="icon-1">
+                    <img src="./assets/participants.png" alt="">
+                    <h2>
+                        300+
+                    </h2>
+                    <p>
+                        participants
+                    </p>
+                </div>
+                <div class="icon-1">
+                    <img src="./assets/sponsor.png" alt="">
+                    <h2>
+                        20+
+                    </h2>
+                    <p>
+                        sponsors
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <!-- video -->
+        <section class="padding">
+            <div class="container">
+                <figure class="video flex column align-center justify-center">
+                    <a href=""><i class="fa-solid fa-caret-right"></i></a>
+                </figure>
+            </div>
+        </section>
+
+        <!-- latest news -->
+
+        <section class="news padding">
+            <h3>
+                our latest news
+            </h3>
+            <div class="container flex column space-between">
+                <article class="news-art flex-30 mg-padding">
+                    <img src="./assets/news-01.png" alt="news-1">
+                    <h2>
+                        How to build a great portfolio as a beginer developer
+                    </h2>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="">read more</a>
+                </article>
+                <article class="news-art flex-30 mg-padding">
+                    <img src="./assets/news-02.png" alt="news-1">
+                    <h2>
+                        4 common situations while using git and how to solve them.
+                    </h2>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a class="active" href="">read more</a>
+                </article>
+                <article class="news-art flex-30">
+                    <img src="./assets/news-03.png" alt="news-1">
+                    <h2>
+                        Basic unix command that you should know
+                    </h2>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="">read more</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- quick links -->
+
+        <section class="quick-links">
+            <div class="container flex space-between align-center column">
+                <article class="flex-18 footer-logo ">
+                    <img src="./assets/footer-logo.png" alt="logo-footer">
+                </article>
+                <article class="flex-30 links">
+                    <h2>
+                        quick links
+                    </h2>
+                    <nav>
+                        <ul class="flex column">
+                            <li>
+                                <a href="#">program</a>
+                            </li>
+                            <li>
+                                <a href="#">about us</a>
+                            </li>
+                            <li>
+                                <a href="#">contact us</a>
+                            </li>
+                            <li>
+                                <a href="#">services</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+                <article class="flex-30 follow">
+                    <h2>
+                        follow us
+                    </h2>
+                    <nav>
+                        <ul class="flex column">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <small>&copy;AltCampus services Pvt Ltd, 2018-present</small>
+    </footer>
+</body>
+</html>
